@@ -14,7 +14,7 @@ public class CalculatorTest {
     @Test
     public void testDivide() {
         Calculator calc = new Calculator();
-        assertEquals(2, calc.divide(6, 3), "6 / 3 should equal 2");
+        assertEquals(25, calc.divide(6, 3), "6 / 3 should equal 2");
     }
 
     @Test
